@@ -1,0 +1,123 @@
+.NFT-container {
+  display: flex;
+  flex-direction: column;
+  width: auto;
+
+  background-color: white;
+  padding-top: 20px;
+  height: fit-content;
+  transition: all 0.3s ease 0s;
+
+  box-shadow: 0px 27px 69px rgba(0, 0, 0, 0.04),
+    0px 8.13971px 20.8015px rgba(0, 0, 0, 0.0260636),
+    0px 3.38082px 8.63987px rgba(0, 0, 0, 0.02),
+    0px 1.22278px 3.12487px rgba(0, 0, 0, 0.0139364);
+  border-radius: 12px;
+}
+
+.NFT-container:hover {
+  box-shadow: rgba(0, 0, 0, 0.22) 0px 19px 43px;
+  transform: translate3d(0px, -2px, 0px);
+  transition: all 0.3s ease 0s;
+}
+
+.NFT-image-container {
+  height: 300px;
+}
+
+.NFT-image {
+  cursor: pointer;
+  object-fit: contain;
+  width: initial;
+  max-width: 250px;
+  height: 100%;
+  margin: auto;
+}
+
+.NFT-infoContainer {
+  padding: 24px;
+  min-height: 100px;
+}
+
+.NFT-name {
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  cursor: pointer;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  color: #223043;
+  text-align: left;
+  font-style: normal;
+  position: static;
+  font-weight: 600;
+  font-size: 20px;
+  color: #000000;
+}
+
+.NFT-name:hover {
+  color: #0000ee;
+}
+
+.NFT-description {
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-size: 15px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  color: #6d6e76;
+  text-align: left;
+  min-height: 43px;
+  margin-top: 8px;
+}
+
+.more {
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  cursor: pointer;
+  color: black;
+  font-weight: 600;
+  margin-left: 5px;
+}
+
+.divider {
+  background: #e8e8e8;
+  margin: 24px 0;
+  height: 1px;
+}
+
+.created-by {
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  font-size: 16px;
+  color: #6d6e76;
+}
+
+.created-by-image {
+  width: 24px;
+  height: 24px;
+  margin-right: 10px;
+  border-radius: 20px;
+}
+
+.created-by-text {
+  min-width: 79px;
+}
+
+.created-by-username {
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  margin-left: 5px;
+  font-weight: bold;
+  color: black;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 50%;
+  cursor: pointer;
+}
+
+.created-by-username:hover {
+  color: #0000ee;
+}
