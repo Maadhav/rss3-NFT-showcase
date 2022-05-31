@@ -1,4 +1,4 @@
-# RSS3 NFT showcase
+# RSS3 NFT Showcase Dapp
 
 This project takes advantage of RSS3's feed. It allows any user to showcase their NFTs collected on any EVM Based blockchain.
 THe Dapp used RSS3's 
